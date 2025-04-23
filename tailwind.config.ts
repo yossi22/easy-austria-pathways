@@ -18,7 +18,13 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'assistant': ['Assistant', 'sans-serif'],
+			},
 			colors: {
+				'navy': '#0F1B28',
+				'gold': '#97782C',
+				'white': '#FFFFFF',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
